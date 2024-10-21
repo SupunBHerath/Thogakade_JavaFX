@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.DashBordController">
+   <children>
+      <Label layoutX="249.0" layoutY="27.0" text="Thogakade">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+      <JFXButton layoutX="209.0" layoutY="141.0" onAction="#btnCustomerFromOnAction" prefHeight="47.0" prefWidth="202.0" style="-fx-background-color: #273c75;" text="Customer From" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="209.0" layoutY="200.0" onAction="#btnItemFromOnAction" prefHeight="47.0" prefWidth="202.0" style="-fx-background-color: #273c75;" text="Item From" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="209.0" layoutY="261.0" onAction="#btnPlaceOrderFromOnAction" prefHeight="47.0" prefWidth="202.0" style="-fx-background-color: #273c75;" text="Place Order From" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>
